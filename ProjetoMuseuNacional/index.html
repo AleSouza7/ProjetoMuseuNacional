@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Museu Nacional de Alex Costa de Souza</title>
+	<meta charset="utf-8">
+
+	<!--Estilo Normalize CSS (Ele suporta uma ampla gama de navegadores (incluindo navegadores móveis) e inclui CSS que normaliza elementos HTML5, tipografia, listas, conteúdo incorporado, formulários e tabelas.-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--Estilo customizado CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="container"><!-- Início do cantainer -->
+
+		<header><!-- Início do <header> Nova tag do html que substitui o #ID ou class-->  
+		
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>			
+			</div>
+
+				<nav><!-- Inicio <nav> Nova tag do html que substitui a <div>-->
+					<ul>
+						<!--Abaixo estao menus do site e os links para cada aba-->
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Exposições</a></li>
+						<li><a href="#">Pesquisa</a></li>
+						<li><a href="#">Acervo</a></li>
+						<li><a href="#">Vídeos</a></li>
+						<li><a href="#">Fotos</a></li>
+						<li><a href="#">Contatos</a></li>
+					</ul>
+				</nav><!-- Fim </nav> Nova tag do html que substitui a <div> -->
+
+		</header><!-- Fim do </header> Nova tag do html que substitui o #ID ou class-->
+
+		<div id="principal"><!-- Inicio Principal -->
+		
+			<div id="conteudo">
+				<section id="capa"><!--Inicio section Imagem capa utilizando nova tag do html -->
+					<img src="img/museu.png">
+				</section><!--Fim section -->
+
+				<section id="Postagens">
+
+					<article id="video">
+
+						<h3>Vídeo: Conheça o museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+					</article>
+
+					<article id="mapa">
+
+						<h3>Mapa: Encontre o museu</h3>
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064455941736!2d-43.228717588430285!3d-22.90575504358512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1648097408778!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+					</article>
+
+					<article id ="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li>
+								<a href="https://g1.globo.com/fantastico/noticia/2022/03/21/exclusivo-web-van-gogh-e-monet-ganham-exposicoes-imersivas-em-sao-paulo-e-no-rio-de-janeiro.ghtml">EXCLUSIVO WEB: Van Gogh e Monet ganham exposições imersivas em São Paulo e no Rio de Janeiro</a>
+							</li>
+
+							<li>
+								<a href="https://www.metropoles.com/colunas/claudia-meireles/museu-de-arte-de-brasilia-lanca-exposicao-que-celebra-a-arte-chinesa">Museu de Arte de Brasília lança exposição que celebra a arte chinesa</a>
+							</li>
+
+							<li>
+								<a href="https://oglobo.globo.com/cultura/artes-visuais/museus-europeus-enfrentam-dilema-de-como-devolver-obras-de-colecoes-russas-de-exposicoes-que-estao-chegando-ao-fim-25443096">Museus europeus enfrentam dilema...</a>
+							</li>
+
+							<li>
+								<a href="https://www.varginhaonline.com.br/196207/exposicao-brasileira-do-criador-de-mangalarga-marchador-e-realizada-em-varginha.html">Exposição Brasileira do Criador de Mangalarga Marchador é realizada em Varginha</a>
+							</li>
+
+							<li>
+								<a href="https://www1.folha.uol.com.br/ilustrada/2022/03/anna-delvey-do-sucesso-inventando-anna-e-estrela-de-exposicao-em-nova-york.shtml"><strong>Destaque: Brasileira é estrela em nova York</strong></a>
+							</li>
+
+						</ul>
+
+					</article>
+
+					<article id = "historia">
+						
+						<h3>O MUSEU</h3>
+
+						<p>O Museu Nacional tem por missão: "Descobrir e interpretar fenômenos do mundo natural e as culturas humanas, difundindo o seu conhecimento com base na realização de pesquisas, organização de coleções, formação de recursos humanos e educação científica, assim como atuar na preservação do patrimônio científico, histórico, natural e cultural em benefício da sociedade."</p>
+						<a href="https://www.museunacional.ufrj.br/dir/omuseu/omuseu.html"><strong>Leia mais</strong></a>
+
+					</article>
+
+				</section>	
+
+			</div>
+
+			<aside><!-- Inicio aside -->
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section>
+
+				<section id="visita"><!--Inicio section visita-->
+					<h4>Faça uma visita</h4>
+
+					<!--O identificador <form> é uma ferramenta do HTML, que permite a criação de documentos interativos no WWW. O FORM submete os dados de entrada do usuário a um programa que se encarregará do processamento desses dados, de acordo com o interesse do criador do documento.-->						
+					<form>
+						<!-- O elemento HTML <fieldset> é usado para agrupar elementos, assim como labels ( <label> ), dentro de um formulário web -->
+						<fieldset>
+							<legend>Selecione a data</legend>
+
+							<label for="data">Data</label>
+							<input class ="campo" type="text" id="data" value="dd/mm/aaaa"><!--O elemento HTML <input> é usado para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+
+							<label for="qtd">Qtd pessoas</label>
+							<input class ="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar Disponibilidade">
+
+					</form>	
+				</section><!--Fim section visita-->
+
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+					<!--Formatação de tamanho podem ser inseridas diretos nas tags eas imagens devem conter o nome alt="Descricao imagem"-->
+					<a href="">
+						<img src="img/imagem1.jpg" height="93" width="93" alt="Descricao imagem">
+					</a>
+
+					<a href="">
+						<img src="img/imagem2.jpg" height="93" width="93" alt="Descricao imagem">
+					</a>
+
+					<a href="">
+						<img src="img/imagem3.jpg" height="93" width="93" alt="Descricao imagem">
+					</a>
+
+					<a href="">
+						<img src="img/imagem4.jpg" height="93" width="93" alt="Descricao imagem">
+					</a>
+
+				</section>
+
+			</aside><!-- Fim aside -->
+
+			<footer>
+				<p>
+					<a href="#">Home</a>
+					<a href="#">Exposições</a>
+					<a href="#">Pesquisa</a>
+					<a href="#">Acervo</a>
+					<a href="#">Vídeos</a>
+					<a href="#">Fotos</a>
+					<a href="#">Contatos</a>
+				</p>
+
+				<p>
+					2022 <a href="">Museu Nacional</a>- Todos os direitos reservados
+				</p>
+
+			</footer>
+			
+		</div><!-- Fim Principal -->
+
+	</div><!-- Fim do cantainer -->
+
+
+
+</body>
+</html>
